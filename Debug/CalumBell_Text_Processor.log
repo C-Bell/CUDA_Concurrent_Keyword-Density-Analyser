@@ -1,0 +1,28 @@
+﻿Build started 12/03/2018 01:02:06.
+     1>Project "c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor\CalumBell_Text_Processor.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         E:\Calum\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Ben\AppData\Local\Temp\tmpe6b4959dc7ad47c6903b04b0f5b1dd59.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\Calum\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor\kernel.cu"
+         
+         c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\Calum\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor\kernel.cu" 
+         kernel.cu
+     1>c:/Users/Ben/documents/visual studio 2013/Projects/CalumBell_Text_Processor/CalumBell_Text_Processor/kernel.cu(304): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         E:\Calum\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\CalumBell_Text_Processor.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\CalumBell_Text_Processor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\CalumBell_Text_Processor.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         CalumBell_Text_Processor.vcxproj -> c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\CalumBell_Text_Processor.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\users\ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "c:\Users\Ben\documents\visual studio 2013\Projects\CalumBell_Text_Processor\CalumBell_Text_Processor\CalumBell_Text_Processor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.97

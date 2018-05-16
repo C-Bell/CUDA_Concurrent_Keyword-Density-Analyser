@@ -31,7 +31,7 @@ This application was built in parallel with a GoLang implementation, also availa
  - CalumBell_Text_processor.vxcproj - Example project settings
 
 ## Performance
-The performance of this application has been measured against a sequential C++ solution and a shared memory solution in NVIDIA's CUDA.
+The performance of this application has been measured against a sequential C++ solution and a distributed memory solution in Google's GoLand.
 
 ![Performance Analysis](https://i.imgur.com/xddRvbN.png)
 
